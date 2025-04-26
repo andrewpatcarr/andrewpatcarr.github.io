@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: splash
 title: Home
+permalink: /
 ---
 
-# Project Portfolio
+# Thanks for taking a look
 
-- [Projects](_pages/projects)
-- [Contact](_pages/contact.md)
+## Featured
+- origami worm
+blah blah, photo
