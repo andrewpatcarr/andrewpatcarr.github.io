@@ -10,6 +10,19 @@ plugins:
 
 minimal_mistakes_skin: "neon"
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      entries_layout: grid
+      classes: wide
+
 navigation:
   - title: "Main"
     url: /
