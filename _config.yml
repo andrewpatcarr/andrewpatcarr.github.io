@@ -8,6 +8,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+minimal_mistakes_skin: "neon"
+
 navigation:
   - title: "Main"
     url: /
@@ -19,4 +21,3 @@ navigation:
       - title: "Contact"
         url: /contact/
 
-minimal_mistakes_skin: "neon"
