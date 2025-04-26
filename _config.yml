@@ -1,7 +1,7 @@
 title: "Andrew Carr Portfolio"
 description: "A portfolio of my engineering projects"
-url: "https://andrewpatcarr.github.io"  # Change this to your GitHub Pages URL
-baseurl: ""  # Leave empty if you're using your user/organization GitHub Pages site
+url: "https://andrewpatcarr.github.io"
+baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes
 plugins:
@@ -19,4 +19,4 @@ navigation:
       - title: "Contact"
         url: /contact/
 
-minimal_mistakes_skin: "air"  # Try "default", "air", "dark", "mint", etc.
+minimal_mistakes_skin: "neon"
