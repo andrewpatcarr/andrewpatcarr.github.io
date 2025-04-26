@@ -5,5 +5,5 @@ title: Home
 
 # Project Portfolio
 
-- [Projects](_pages/projects/project_home.md)
+- [Projects](_pages/projects)
 - [Contact](_pages/contact.md)
