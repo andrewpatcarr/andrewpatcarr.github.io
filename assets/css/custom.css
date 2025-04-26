@@ -1,0 +1,19 @@
+/* Giant Project Cards */
+.archive__item {
+    flex: 0 0 48%; /* Two per row, full width of container */
+    max-width: 48%; /* Control the width of each card */
+    margin: 1%; /* Space between cards */
+    border-radius: 8px; /* Rounded corners for cards */
+  }
+  
+  .archive__item img {
+    width: 100%; /* Makes images take up full width of the card */
+    border-radius: 8px; /* Rounded corners for images */
+    height: auto;
+  }
+  
+  .archive__item .archive__content {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  

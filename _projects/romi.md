@@ -46,8 +46,17 @@ the following course by hitting each checkpoint, detecting the wall and making o
 
 ## Successful Run
 
-{% include video
-   url="https://www.youtube.com/shorts/lIelwNlQIkY"
-   title="Successful Run"
-   lazy=true
-%}
+<div style="max-width: 360px; margin: auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/lIelwNlQIkY"
+      title="My Short Video"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+(Yes, we barely made it back on the pad but we are counting it :))
