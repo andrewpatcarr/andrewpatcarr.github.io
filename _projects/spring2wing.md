@@ -5,7 +5,7 @@ excerpt: "Repeatable jumping robot with wings (doesn't fly yet)"
 date: 2025-04-27
 collection: projects
 header:
-    teaser: assets\images\spring2wing\compressed_shot.jpg
+    teaser: assets/images/spring2wing/compressed_shot.jpg
 ---
 
 ---
@@ -35,12 +35,12 @@ See this [UCSB video](https://www.youtube.com/watch?v=Z1BQLSkqrpY) or the [verit
 
 This project was for ME-423 which is 'Robotics: Fundamentals and Applications'. The original scope was to build a jumping robot capable of jumping and flying some somewhere. This turned out to be far too much for the limited amount of time we actually spent on the robot. Getting all the electronics and jumping mechanics to work took much longer than expected so the flying became more of a aesthetic accessory.
 
-{% include figure image_path="assets\images\spring2wing\compressed_shot.jpg" alt="compressed_shot" 
+{% include figure image_path="assets/images/spring2wing/compressed_shot.jpg" alt="compressed_shot" 
 %}
 
 Another key aspect of our scope was to make it able to jump multiple times in a row. We were somewhat successful in this. We need a current sensor or a limit switch and this would work. Currently, I have to adjust the compression setpoint with some battery finesse, but no other action is required to do the process repeatedly.
 
-{% include figure image_path="assets\images\spring2wing\side_shot.jpg" alt="side_shot" 
+{% include figure image_path="assets/images/spring2wing/side_shot.jpg" alt="side_shot" 
 %}
 
 # Jumping Design
@@ -55,11 +55,11 @@ Our design features a dc motor to compress the motor with a cable. Once the robo
 Everything was designed in fusion 360, mostly by Kai De La Cruz.
 
 ### Isometric
-{% include figure image_path="assets\images\spring2wing\isometric_cad.png" alt="isometric_cad"
+{% include figure image_path="assets/images/spring2wing/isometric_cad.png" alt="isometric_cad"
 %}
 
 ### Locking Mechanism
-{% include figure image_path="assets\images\spring2wing\locking_mech.png" alt="locking_mech"
+{% include figure image_path="assets/images/spring2wing/locking_mech.png" alt="locking_mech"
 %}
 
 # Electronics
@@ -68,7 +68,7 @@ Everything was designed in fusion 360, mostly by Kai De La Cruz.
 Originally, we had come up with an assortment of components that would allow us to create a small design without a pcb. In theory it should have worked, but some problems with the microcontroller, battery life, and project deadline forced us to go to a less ideal design.
 
 ### Original Circuit Setup
-{% include figure image_path="assets\images\spring2wing\original_circuit.jpg" alt="original_circuit"
+{% include figure image_path="assets/images/spring2wing/original_circuit.jpg" alt="original_circuit"
 %}
 
 We ended up with an Arduino Nano and a 9V battery which increased our weight, but allowed us to jump.

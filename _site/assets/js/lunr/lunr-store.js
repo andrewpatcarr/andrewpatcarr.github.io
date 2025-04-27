@@ -21,11 +21,11 @@ var store = [{
         "excerpt":"Inspiration Dr. Hawke’s lab at UCSB created a robot similar to this that could jump absurdly high (~100 ft). See this UCSB video or the veritasium video. Our Project This project was for ME-423 which is ‘Robotics: Fundamentals and Applications’. The original scope was to build a jumping robot capable...","categories": [],
         "tags": [],
         "url": "/projects/spring2wing/",
-        "teaser": "/assets%5Cimages%5Cspring2wing%5Ccompressed_shot.jpg"
+        "teaser": "/assets/images/spring2wing/compressed_shot.jpg"
       },{
         "title": "Tarantula Robot",
         "excerpt":"more to be described but here are some photos and a video               Leg Movement Test                      ","categories": [],
         "tags": [],
         "url": "/projects/tarantula/",
-        "teaser": "/assets%5Cimages%5Ctarantula%5Cortho_shot.jpg"
+        "teaser": "/assets/images/tarantula/ortho_shot.jpg"
       }]
