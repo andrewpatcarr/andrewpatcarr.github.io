@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>spring2wing - Andrew Carr</title>
-<meta name="description" content="words">
+<meta name="description" content="Repeatable jumping robot with wings (doesn’t fly yet)">
 
 
 
@@ -22,15 +22,17 @@
 <meta property="og:url" content="http://localhost:4000/projects/spring2wing/">
 
 
-  <meta property="og:description" content="words">
+  <meta property="og:description" content="Repeatable jumping robot with wings (doesn’t fly yet)">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets%5Cimages%5Cspring2wing%5Ccompressed_shot.jpg">
 
 
 
 
 
-
-
-  <meta property="article:published_time" content="2025-04-26T15:17:55-07:00">
+  <meta property="article:published_time" content="2025-04-27T00:00:00-07:00">
 
 
 
@@ -147,8 +149,8 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="spring2wing">
-    <meta itemprop="description" content="words">
-    
+    <meta itemprop="description" content="Repeatable jumping robot with wings (doesn’t fly yet)">
+    <meta itemprop="datePublished" content="2025-04-27T00:00:00-07:00">
     
 
     <div class="page__inner-wrap">
@@ -166,7 +168,79 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>words</p>
+        <hr />
+<h1 id="inspiration">Inspiration</h1>
+
+<p>Dr. Hawke’s lab at UCSB created a robot similar to this that could jump absurdly high (~100 ft).</p>
+
+<p>See this <a href="https://www.youtube.com/watch?v=Z1BQLSkqrpY">UCSB video</a> or the <a href="https://www.youtube.com/watch?v=daaDuC1kbds">veritasium video</a>.</p>
+
+<h1 id="our-project">Our Project</h1>
+<hr />
+
+<div style="max-width: 360px; margin: auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/s2asxXa2fdQ" title="Jump" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen="">
+    </iframe>
+  </div>
+</div>
+
+<hr />
+
+<p>This project was for ME-423 which is ‘Robotics: Fundamentals and Applications’. The original scope was to build a jumping robot capable of jumping and flying some somewhere. This turned out to be far too much for the limited amount of time we actually spent on the robot. Getting all the electronics and jumping mechanics to work took much longer than expected so the flying became more of a aesthetic accessory.</p>
+
+<figure class=""><img src="/assets%5Cimages%5Cspring2wing%5Ccompressed_shot.jpg" alt="compressed_shot" /></figure>
+
+<p>Another key aspect of our scope was to make it able to jump multiple times in a row. We were somewhat successful in this. We need a current sensor or a limit switch and this would work. Currently, I have to adjust the compression setpoint with some battery finesse, but no other action is required to do the process repeatedly.</p>
+
+<figure class=""><img src="/assets%5Cimages%5Cspring2wing%5Cside_shot.jpg" alt="side_shot" /></figure>
+
+<h1 id="jumping-design">Jumping Design</h1>
+<hr />
+
+<p>Our design features a dc motor to compress the motor with a cable. Once the robot compresses completely, a servo actuates a lever that locks the robot in place, then our dc motor unwinds the cable. Finally, the robot pulls back the lever, launching the robot. We are using carbon fiber bars as our springs.</p>
+
+<h1 id="cad">CAD</h1>
+<hr />
+
+<p>Everything was designed in fusion 360, mostly by Kai De La Cruz.</p>
+
+<h3 id="isometric">Isometric</h3>
+<figure class=""><img src="/assets%5Cimages%5Cspring2wing%5Cisometric_cad.png" alt="isometric_cad" /></figure>
+
+<h3 id="locking-mechanism">Locking Mechanism</h3>
+<figure class=""><img src="/assets%5Cimages%5Cspring2wing%5Clocking_mech.png" alt="locking_mech" /></figure>
+
+<h1 id="electronics">Electronics</h1>
+<hr />
+
+<p>Originally, we had come up with an assortment of components that would allow us to create a small design without a pcb. In theory it should have worked, but some problems with the microcontroller, battery life, and project deadline forced us to go to a less ideal design.</p>
+
+<h3 id="original-circuit-setup">Original Circuit Setup</h3>
+<figure class=""><img src="/assets%5Cimages%5Cspring2wing%5Coriginal_circuit.jpg" alt="original_circuit" /></figure>
+
+<p>We ended up with an Arduino Nano and a 9V battery which increased our weight, but allowed us to jump.</p>
+
+<h1 id="testing">Testing</h1>
+<hr />
+
+<p>Like all good final projects, we finished the circuit, the progamming, the mechanical design and tested in the day before it was due. Comically, we came up with the locking mechanism that day and swapped from a SEEED ESP32 to a ESP32 Devkit to an Arduino Nano. About 14 hours of fiddling and we got our first succesful jump.</p>
+
+<div style="max-width: 360px; margin: auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/yehSviDhSpo" title="First Successful Test" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen="">
+    </iframe>
+  </div>
+</div>
+
+<h3 id="take-off-view">Take Off View</h3>
+
+<div style="max-width: 360px; margin: auto;">
+  <div style="position: relative; padding-bottom: 177.78%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/ejHEGNCBb9o" title="Bottom View" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen="">
+    </iframe>
+  </div>
+</div>
 
         
       </section>
@@ -177,6 +251,8 @@
 
 
         
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-04-27T00:00:00-07:00">April 27, 2025</time></p>
 
       </footer>
 

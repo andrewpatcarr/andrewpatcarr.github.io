@@ -4,4 +4,8 @@ title: "Contact"
 permalink: /contact/
 ---
 
-Test
+### Email:
+
+andrewcarr319@gmail.com
+
+apcarr@calpoly.edu
