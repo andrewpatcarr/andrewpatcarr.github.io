@@ -5,6 +5,7 @@ excerpt: "My ME-405 term project using the Romi robot to complete a course 'auto
 collection: projects
 header:
     teaser: /assets/images/romi/romi_pic_cropped.png
+order: 2
 ---
 
 

@@ -6,6 +6,7 @@ date: 2025-04-25
 collection: projects
 header:
     teaser: /assets/images/haptic_joystick/top_view.jpeg
+order: 4
 ---
 
 tbd

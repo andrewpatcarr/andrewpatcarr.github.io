@@ -6,6 +6,7 @@ date: 2025-04-25
 collection: projects
 header:
     teaser: /assets/images/origami_worm/worm_closeup.jpeg
+order: 5
 ---
 
 tbd
