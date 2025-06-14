@@ -4,11 +4,14 @@ title: "About"
 permalink: /about/
 ---
 
+I'm a Cal Poly ME Masters student. I really like robotics but also other cool stuff.
 
-{% include figure image_path="/assets/images/me_bike_portrait.JPG" alt="me" 
+My thesis is reinforcement learning for reservoir computing utilizing MEMS devices. 
+
+
+{% include figure image_path="/assets/images/me_bike_portrait.JPG" alt="me" width="500"
 %}
 
-Cal Poly Mechanical Engineering Undergrad Student, doing blended Master's next year
 
 Also, I race road and mountain bikes
 
