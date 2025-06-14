@@ -11,15 +11,11 @@ header:
       class: "btn btn--primary"
 ---
 
-### A place to show what I'm working on, developing or passionate about
+## A place to show what I'm working on, developing or passionate about.
 
-Do more
+--> [**Projects**](https://andrewpatcarr.github.io/projects/) <--
 
-Go till you blow
 
-Everything or nothing
 
-Live a life worth telling a story about
 
-Trying to distract myself from the elephant in the room
 

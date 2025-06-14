@@ -45,7 +45,7 @@ author_profile: true
           {{ project.title }}
         
         </h2>
-      <p style="color: white; text-decoration: none;">
+      <p style="color: black; text-decoration: none;">
         {{ project.excerpt }}
       </p>
       </a>

@@ -28,4 +28,10 @@ var store = [{
         "tags": [],
         "url": "/projects/tarantula/",
         "teaser": "/assets/images/tarantula/ortho_shot.jpg"
+      },{
+        "title": "Zap'Em Blast'Em Robots",
+        "excerpt":"Please see Zap’Em Blast’Em Robots for a complete description, technical details, gameplay, and, of course, more photos. Creators: Andrew Carr Kai De La Cruz Documentation: Zap’Em Blast’Em Robots Documentation A more thorough look at our project. Github Repository Game Play: Project Overview: Zap’Em Blast’Em Robots is an interactive game inspired...","categories": [],
+        "tags": [],
+        "url": "/projects/zap_em_blast_em/",
+        "teaser": "/assets%5Cimages%5Czap_em_blast_em%5Cfinal_product.jpg"
       }]
