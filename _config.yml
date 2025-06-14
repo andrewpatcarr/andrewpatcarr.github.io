@@ -8,7 +8,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "default"
 
 collections:
   projects:
