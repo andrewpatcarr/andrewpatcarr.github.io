@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "spring2wing"
-excerpt: "Repeatable jumping robot with wings (doesn't fly yet)"
+excerpt: "Jumping robot with wings (doesn't fly yet)"
 date: 2025-04-27
 collection: projects
 header:

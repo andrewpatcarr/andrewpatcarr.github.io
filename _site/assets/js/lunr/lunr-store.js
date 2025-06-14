@@ -11,6 +11,12 @@ var store = [{
         "url": "/projects/origami_worm/",
         "teaser": "/assets/images/origami_worm/worm_closeup.jpeg"
       },{
+        "title": "Intro to Reinforcement Learning",
+        "excerpt":"tbd  ","categories": [],
+        "tags": [],
+        "url": "/projects/rl_practice/",
+        "teaser": "/assets%5Cimages%5Crl_practice%5Cmountain_cart_good.gif"
+      },{
         "title": "Line-following, Orientation Sensing Romi Robot",
         "excerpt":"Our final build of the Romi robot Documentation As part of our project, we created a website for documentation of every aspect of the project. ME-405 Project Documentation Here’s a quick overview The Project - Romi Throughout the quarter in ME-405, we worked on labs that built, wired, and programmed...","categories": [],
         "tags": [],
