@@ -5,29 +5,29 @@ excerpt: "An interactive, laser-shooting game bootlegged off Rock'Em Sock'Em Rob
 date: 2025-06-14
 collection: projects
 header:
-    teaser: assets\images\zap_em_blast_em\final_product.jpg
+    teaser: assets/images/zap_em_blast_em/final_product.jpg
 order: 1
 gallery:
-  - url: assets\images\zap_em_blast_em\transparent_logo_sized.png
-    image_path: assets\images\zap_em_blast_em\transparent_logo_sized.png
+  - url: assets/images/zap_em_blast_em/transparent_logo_sized.png
+    image_path: assets/images/zap_em_blast_em/transparent_logo_sized.png
     alt: "logo"
-  - url: assets\images\zap_em_blast_em\MCU_Design_v32.png
-    image_path: assets\images\zap_em_blast_em\MCU_Design_v32.png
+  - url: assets/images/zap_em_blast_em/MCU_Design_v32.png
+    image_path: assets/images/zap_em_blast_em/MCU_Design_v32.png
     alt: "pcb"
     title: "Custom PCB"
-  - url: assets\images\zap_em_blast_em\final_product.jpg
-    image_path: assets\images\zap_em_blast_em\final_product.jpg
+  - url: assets/images/zap_em_blast_em/final_product.jpg
+    image_path: assets/images/zap_em_blast_em/final_product.jpg
     alt: "final product"
     title: "At Demo"
-  - url: assets\images\zap_em_blast_em\mosfet_swap.jpg
-    image_path: assets\images\zap_em_blast_em\mosfet_swap.jpg
+  - url: assets/images/zap_em_blast_em/mosfet_swap.jpg
+    image_path: assets/images/zap_em_blast_em/mosfet_swap.jpg
     alt: "mosfet_swap"
-  - url: assets\images\zap_em_blast_em\LaserCaution.jpg
-    image_path: assets\images\zap_em_blast_em\LaserCaution.jpg
+  - url: assets/images/zap_em_blast_em/LaserCaution.jpg
+    image_path: assets/images/zap_em_blast_em/LaserCaution.jpg
     alt: "laser caution"
     title: "Customs" 
-  - url: assets\images\zap_em_blast_em\mountedPCB.jpg
-    image_path: assets\images\zap_em_blast_em\mountedPCB.jpg
+  - url: assets/images/zap_em_blast_em/mountedPCB.jpg
+    image_path: assets/images/zap_em_blast_em/mountedPCB.jpg
     alt: "pcb exploded"
 ---
 

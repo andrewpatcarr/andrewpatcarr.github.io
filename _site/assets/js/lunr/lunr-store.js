@@ -15,7 +15,7 @@ var store = [{
         "excerpt":"tbd  ","categories": [],
         "tags": [],
         "url": "/projects/rl_practice/",
-        "teaser": "/assets%5Cimages%5Crl_practice%5Cmountain_cart_good.gif"
+        "teaser": "/assets/images/rl_practice/mountain_cart_good.gif"
       },{
         "title": "Line-following, Orientation Sensing Romi Robot",
         "excerpt":"Our final build of the Romi robot Documentation As part of our project, we created a website for documentation of every aspect of the project. ME-405 Project Documentation Here’s a quick overview The Project - Romi Throughout the quarter in ME-405, we worked on labs that built, wired, and programmed...","categories": [],
@@ -39,5 +39,5 @@ var store = [{
         "excerpt":"Please see Zap’Em Blast’Em Robots for a complete description, technical details, gameplay, and, of course, more photos. Creators: Andrew Carr Kai De La Cruz Documentation: Zap’Em Blast’Em Robots Documentation A more thorough look at our project. Github Repository Game Play: Project Overview: Zap’Em Blast’Em Robots is an interactive game inspired...","categories": [],
         "tags": [],
         "url": "/projects/zap_em_blast_em/",
-        "teaser": "/assets%5Cimages%5Czap_em_blast_em%5Cfinal_product.jpg"
+        "teaser": "/assets/images/zap_em_blast_em/final_product.jpg"
       }]
