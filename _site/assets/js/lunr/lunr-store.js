@@ -6,10 +6,10 @@ var store = [{
         "teaser": "/assets/images/haptic_joystick/top_view.jpeg"
       },{
         "title": "2-DoF Origami Worm",
-        "excerpt":"tbd  ","categories": [],
+        "excerpt":"This project started as a Cal Poly SURP in 2023. I joined in the beginning of 2024. I worked under Dr. Mohammed Hasan with undergraduate students Micheal Freeman, Conor Schott, Carter Josef, and Col Cook. Most of my work was on getting the robot to move well. The origami pattern...","categories": [],
         "tags": [],
         "url": "/projects/origami_worm/",
-        "teaser": "/assets/images/origami_worm/worm_closeup.jpeg"
+        "teaser": "/assets/images/origami_worm/origami_worm.gif"
       },{
         "title": "Intro to Reinforcement Learning",
         "excerpt":"tbd  ","categories": [],
