@@ -1,0 +1,399 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>4D Haptic Joystick - Andrew Carr</title>
+<meta name="description" content="Research and design of a 4 DoF Haptic Joystick under Dr. Xiaoli Zhang">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Andrew Carr">
+<meta property="og:title" content="4D Haptic Joystick">
+<meta property="og:url" content="http://localhost:4000/research/haptic_joystick/">
+
+
+  <meta property="og:description" content="Research and design of a 4 DoF Haptic Joystick under Dr. Xiaoli Zhang">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/haptic_joystick/top_view.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-06-21T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/research/haptic_joystick/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Andrew Carr Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Andrew Carr
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/projects/"
+                
+                
+              >Projects</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/research/"
+                
+                
+              >Research</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/contact/"
+                
+                
+              >Contact</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="4D Haptic Joystick">
+    <meta itemprop="description" content="Research and design of a 4 DoF Haptic Joystick under Dr. Xiaoli Zhang">
+    <meta itemprop="datePublished" content="2025-06-21T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/research/haptic_joystick/" itemprop="url">4D Haptic Joystick
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/haptic_joystick/top_view.jpeg" alt="top_view" /></figure>
+
+</div>
+
+<p>As part of the Colorado School of MINES FIRE program, I designed and prototyped a 4D haptic joystick working under Dr. Xiaoli Zhang in collaboration with PhD student Grant Zheng.</p>
+
+<p>The mechanical design is based on other haptic joysticks on the market and previous research completed. Two geared DC motors with encoders control Θ and ɸ, and a servo powers a hydraulic syringe system to actuate in the z direction along the joystick. Vibration motors in the joystick top provide options to show spin, give positional guidance, or add to impact simulation. The DC motors can output roughly 4 N-m of torque each.</p>
+
+<p>A Raspberry Pi 3 B+ is used to do computations and send out commands. Since there is a data processing aspect to this project, a Raspberry Pi allows for fast processing, signal outputs, and ease of use. The device is programmed in Python utilizing an object-oriented organization. There are two high-frequency motor drivers for the DC motors, a makeshift transistor diode PWM motor driver for the vibration motor, two current sensors for calibration, and a buck converter for power distribution.</p>
+
+<p>We were designing towards simulating a tennis match with the joystick top being the ball. So a user would be holding onto the ball during the match as it went back and forth across the court. They would feel the impacts and kinematics the ball undergoes during the match. 
+We were able to achieve a successful simulation of the match with x-y data. There is a machine-learning part of this project that I am not a part of that is still working on getting the z-data of a given tennis match video.</p>
+
+<p>Work is still being done to optimize the design and complete user studies.</p>
+
+<h1 id="design-overview">Design Overview</h1>
+
+<h3 id="mechanical-design">Mechanical Design</h3>
+
+<div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/haptic_joystick/sw_assembly.jpg" alt="assembly" /></figure>
+
+</div>
+
+<hr />
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/haptic_joystick/transmission_setup.jpeg" alt="transmission" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Transmission</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <ul>
+  <li>
+    <p>Travel: 22° Θ and 36° ɸ</p>
+  </li>
+  <li>
+    <p>With motor shaft flange adapter, bearing mounts, motor mounts</p>
+  </li>
+</ul>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/haptic_joystick/joystick_top.jpeg" alt="Joystick" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Joystick</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <ul>
+  <li>syringe plunger stabilized with metal rods</li>
+  <li>allows easy wire organization through the joystick</li>
+  <li>integrates vibration motor in a minimal but effective way</li>
+  <li>houses syringe</li>
+</ul>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h3 id="electronics">Electronics</h3>
+
+<div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/haptic_joystick/electronics.jpeg" alt="electronics" /><figcaption>
+      Raspberry PI 3 B+, high power H-bridges, power sensors, transistor circuit for vibration motors, buck converters. (ignore the AC current sensors, oops)
+
+    </figcaption></figure>
+
+</div>
+
+<hr />
+
+<h3 id="control">Control</h3>
+
+<div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/haptic_joystick/control_scheme.png" alt="control" /></figure>
+
+</div>
+
+<hr />
+
+<h3 id="simulation-technique">Simulation Technique</h3>
+
+<p>To simulate the ball-racket impact, we tell the y-axis motor to go to an impossible positive angle and then an impossible negative angle, or vice versa depending on the path of the ball. This jolts the joystick in the direction of the ball’s path then pulls it back rapidly before starting its next trajectory. This results in forces that the user can feel and relate to what they are seeing on the screen.</p>
+
+<hr />
+
+<h2 id="path-following-results">Path Following Results</h2>
+
+<p><strong><em>A full simulation</em></strong></p>
+<div style="width: 500px; margin: auto;">
+<figure class=""><img src="/assets/images/haptic_joystick/results.png" alt="results" /></figure>
+
+</div>
+<p><strong><em>Haptic Impact</em></strong></p>
+<div style="width: 500px; margin: auto;">
+<figure class=""><img src="/assets/images/haptic_joystick/results_closeup.png" alt="results" /></figure>
+
+</div>
+
+<hr />
+
+<p><strong>Work continues at MINES</strong></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-06-21T00:00:00-07:00">June 21, 2025</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/research/origami_worm/" class="pagination--pager" title="2-DoF Origami Worm">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Andrew Carr</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

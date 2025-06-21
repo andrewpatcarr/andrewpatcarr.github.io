@@ -6,10 +6,8 @@ date: 2025-04-27
 collection: projects
 header:
     teaser: assets/images/tarantula/ortho_shot.jpg
-order: 3
+order: 5
 ---
-
-more to be described but here are some photos and a video
 
 {% include figure image_path="assets/images/tarantula/ortho_shot.jpg" alt="ortho_shot"
 %}

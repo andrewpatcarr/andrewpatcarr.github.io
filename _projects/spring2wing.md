@@ -5,8 +5,8 @@ excerpt: "Jumping robot with wings (doesn't fly yet)"
 date: 2025-04-27
 collection: projects
 header:
-    teaser: assets/images/spring2wing/compressed_shot.jpg
-order: 1
+    teaser: assets/images/spring2wing/spring2wing_low_shot_cropped.gif
+order: 2
 ---
 
 ---

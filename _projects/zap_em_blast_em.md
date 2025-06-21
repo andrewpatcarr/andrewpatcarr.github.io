@@ -5,7 +5,7 @@ excerpt: "An interactive, laser-shooting game bootlegged off Rock'Em Sock'Em Rob
 date: 2025-06-14
 collection: projects
 header:
-    teaser: assets/images/zap_em_blast_em/final_product.jpg
+    teaser: assets/images/zap_em_blast_em/zap_top_view.gif
 order: 1
 gallery:
   - url: assets/images/zap_em_blast_em/transparent_logo_sized.png
@@ -52,8 +52,15 @@ A more thorough look at our project.
 
 ## Game Play:
 
-[![Watch the video](https://img.youtube.com/vi/SelIsVGXWzg/0.jpg)](https://www.youtube.com/watch?v=SelIsVGXWzg)
-
+<div class="video-container">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/SelIsVGXWzg"
+    title="zap game play"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## Project Overview:
 

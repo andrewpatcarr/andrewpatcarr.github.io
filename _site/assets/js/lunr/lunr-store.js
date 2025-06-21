@@ -1,16 +1,4 @@
 var store = [{
-        "title": "4D Haptic Joystick",
-        "excerpt":"tbd  ","categories": [],
-        "tags": [],
-        "url": "/projects/haptic_joystick/",
-        "teaser": "/assets/images/haptic_joystick/top_view.jpeg"
-      },{
-        "title": "2-DoF Origami Worm",
-        "excerpt":"This project started as a Cal Poly SURP in 2023. I joined in the beginning of 2024. I worked under Dr. Mohammed Hasan with undergraduate students Micheal Freeman, Conor Schott, Carter Josef, and Col Cook. Most of my work was on getting the robot to move well. The origami pattern...","categories": [],
-        "tags": [],
-        "url": "/projects/origami_worm/",
-        "teaser": "/assets/images/origami_worm/origami_worm.gif"
-      },{
         "title": "Intro to Reinforcement Learning",
         "excerpt":"tbd  ","categories": [],
         "tags": [],
@@ -27,10 +15,10 @@ var store = [{
         "excerpt":"Inspiration Dr. Hawke’s lab at UCSB created a robot similar to this that could jump absurdly high (~100 ft). See this UCSB video or the veritasium video. Our Project This project was for ME-423 which is ‘Robotics: Fundamentals and Applications’. The original scope was to build a jumping robot capable...","categories": [],
         "tags": [],
         "url": "/projects/spring2wing/",
-        "teaser": "/assets/images/spring2wing/compressed_shot.jpg"
+        "teaser": "/assets/images/spring2wing/spring2wing_low_shot_cropped.gif"
       },{
         "title": "Tarantula Robot",
-        "excerpt":"more to be described but here are some photos and a video               Leg Movement Test                      ","categories": [],
+        "excerpt":"            Leg Movement Test                      ","categories": [],
         "tags": [],
         "url": "/projects/tarantula/",
         "teaser": "/assets/images/tarantula/ortho_shot.jpg"
@@ -39,5 +27,17 @@ var store = [{
         "excerpt":"Please see Zap’Em Blast’Em Robots for a complete description, technical details, gameplay, and, of course, more photos. Creators: Andrew Carr Kai De La Cruz Documentation: Zap’Em Blast’Em Robots Documentation A more thorough look at our project. Github Repository Game Play: Project Overview: Zap’Em Blast’Em Robots is an interactive game inspired...","categories": [],
         "tags": [],
         "url": "/projects/zap_em_blast_em/",
-        "teaser": "/assets/images/zap_em_blast_em/final_product.jpg"
+        "teaser": "/assets/images/zap_em_blast_em/zap_top_view.gif"
+      },{
+        "title": "2-DoF Origami Worm",
+        "excerpt":"Overview This project started as a Cal Poly SURP in 2023. I joined in the beginning of 2024. I worked under Dr. Mohammed Hasan with undergraduate students Micheal Freeman, Conor Schott, Carter Josef, and Col Cook. Most of my work was on getting the robot to move well. The origami...","categories": [],
+        "tags": [],
+        "url": "/research/origami_worm/",
+        "teaser": "/assets/images/origami_worm/origami_worm.gif"
+      },{
+        "title": "4D Haptic Joystick",
+        "excerpt":"As part of the Colorado School of MINES FIRE program, I designed and prototyped a 4D haptic joystick working under Dr. Xiaoli Zhang in collaboration with PhD student Grant Zheng. The mechanical design is based on other haptic joysticks on the market and previous research completed. Two geared DC motors...","categories": [],
+        "tags": [],
+        "url": "/research/haptic_joystick/",
+        "teaser": "/assets/images/haptic_joystick/top_view.jpeg"
       }]

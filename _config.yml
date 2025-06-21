@@ -14,6 +14,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  research:
+    output: true
+    permalink: /research/:path/
 
 include:
   - /assets/css/custom.css
@@ -32,6 +35,8 @@ navigation:
     children:
       - title: "Projects"
         url: /projects/
+      - title: "Research"
+        url: /research/
       - title: "About"
         url: /about/
       - title: "Contact"
