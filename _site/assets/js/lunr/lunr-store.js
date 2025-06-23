@@ -18,7 +18,7 @@ var store = [{
         "teaser": "/assets/images/spring2wing/spring2wing_low_shot_cropped.gif"
       },{
         "title": "Tarantula Robot",
-        "excerpt":"            Leg Movement Test                      ","categories": [],
+        "excerpt":"This was a for-fun design project during some of Fall 2024 but mostly during my 2024 Winter break. The mechanical design is pretty much there. I would like to change the power system as the massive battery is overkill and makes the robot more bulky than it needs to be....","categories": [],
         "tags": [],
         "url": "/projects/tarantula/",
         "teaser": "/assets/images/tarantula/ortho_shot.jpg"

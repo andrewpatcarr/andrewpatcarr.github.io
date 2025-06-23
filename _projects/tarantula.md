@@ -7,25 +7,37 @@ collection: projects
 header:
     teaser: assets/images/tarantula/ortho_shot.jpg
 order: 5
+gallery:
+  - url: assets/images/tarantula/ortho_shot.jpg
+    image_path: assets/images/tarantula/ortho_shot.jpg
+    alt: "ortho"
+  - url: aassets/images/tarantula/top_view.jpg
+    image_path: assets/images/tarantula/top_view.jpg
+    alt: "top"
+    title: "Custom PCB"
+  - url: assets/images/tarantula/side_shot.jpg
+    image_path: assets/images/tarantula/side_shot.jpg
+    alt: "final product"
+    title: "side"
+  - url: assets/images/tarantula/bottom_view.jpg
+    image_path: assets/images/tarantula/bottom_view.jpg
+    alt: "bottom"
+  - url: assets/images/tarantula/lift_mech_solid.png
+    image_path: assets/images/tarantula/lift_mech_solid.png
+    alt: "lift mech"
+    title: "Customs" 
+  - url: assets/images/tarantula/holder_cad.png
+    image_path: assets/images/tarantula/holder_cad.png
+    alt: "holder"
 ---
 
-{% include figure image_path="assets/images/tarantula/ortho_shot.jpg" alt="ortho_shot"
-%}
+This was a for-fun design project during some of Fall 2024 but mostly during my 2024 Winter break. The mechanical design is pretty much there. I would like to change the power system as the massive battery is overkill and makes the robot more bulky than it needs to be. Ideally, I would like to design a PCB and make everything integrate cleanly with the mechanical design. 
 
-{% include figure image_path="assets/images/tarantula/top_view.jpg" alt="top_view"
-%}
+Maybe I'll find some more time and motivation to revamp this thing. Maybe give it some eyes and allow it to talk??
 
-{% include figure image_path="assets/images/tarantula/side_shot.jpg" alt="side_shot"
-%}
+### Photo Gallery
 
-{% include figure image_path="assets/images/tarantula/bottom_view.jpg" alt="bottom_view"
-%}
-
-{% include figure image_path="assets/images/tarantula/lift_mech_solid.png" alt="lift_mech_solid"
-%}
-
-{% include figure image_path="assets/images/tarantula/holder_cad.png" alt="holder_cad"
-%}
+{% include gallery caption="" %}
 
 ### Leg Movement Test
 

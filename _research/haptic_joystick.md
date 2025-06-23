@@ -7,27 +7,6 @@ collection: projects
 header:
     teaser: /assets/images/haptic_joystick/top_view.jpeg
 order: 2
-gallery:
-  - url: assets/images/haptic_joystick/sw_assembly.jpg
-    image_path: assets/images/haptic_joystick/sw_assembly.jpg
-    alt: "assembly"
-  - url: assets/images/haptic_joystick/transmission_setup.jpeg
-    image_path: assets/images/haptic_joystick/transmission_setup.jpeg
-    alt: "transmission"
-  - url: assets/images/zap_em_blast_em/final_product.jpg
-    image_path: assets/images/zap_em_blast_em/final_product.jpg
-    alt: "final product"
-    title: "At Demo"
-  - url: assets/images/zap_em_blast_em/mosfet_swap.jpg
-    image_path: assets/images/zap_em_blast_em/mosfet_swap.jpg
-    alt: "mosfet_swap"
-  - url: assets/images/zap_em_blast_em/LaserCaution.jpg
-    image_path: assets/images/zap_em_blast_em/LaserCaution.jpg
-    alt: "laser caution"
-    title: "Customs" 
-  - url: assets/images/zap_em_blast_em/mountedPCB.jpg
-    image_path: assets/images/zap_em_blast_em/mountedPCB.jpg
-    alt: "pcb exploded"
 
 transmission:
   - image_path: assets/images/haptic_joystick/transmission_setup.jpeg
