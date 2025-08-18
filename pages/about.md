@@ -9,7 +9,7 @@ permalink: /about/
 %}
 </div>
 
-I'm a Cal Poly ME Masters student. I really like robotics but also other cool stuff.
+Cal Poly ME Masters student.
 
 My thesis is reinforcement learning for reservoir computing utilizing MEMS devices. 
 
