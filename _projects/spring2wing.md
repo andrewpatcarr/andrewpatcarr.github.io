@@ -34,7 +34,7 @@ See this [UCSB video](https://www.youtube.com/watch?v=Z1BQLSkqrpY) or the [verit
 
 ---
 
-This project was for ME-423 which is 'Robotics: Fundamentals and Applications'. The original scope was to build a jumping robot capable of jumping and flying some somewhere. This turned out to be far too much for the limited amount of time we actually spent on the robot. Getting all the electronics and jumping mechanics to work took much longer than expected so the flying became more of a aesthetic accessory.
+This project was for ME-423 which is 'Robotics: Fundamentals and Applications'. The original scope was to build a jumping robot capable of jumping and flying some somewhere. This turned out to be far too much for the limited amount of time we actually spent on the robot. Getting all the electronics and jumping mechanics to work took much longer than expected so the flying became more of an aesthetic accessory.
 
 {% include figure image_path="assets/images/spring2wing/compressed_shot.jpg" alt="compressed_shot" 
 %}
