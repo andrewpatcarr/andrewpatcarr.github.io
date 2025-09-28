@@ -5,7 +5,7 @@ excerpt: "An affordable bipedal droid for testing reinforcement learning-based c
 date: 2025-09-27
 collection: projects
 header:
-    teaser: assets\images\wrld\in_dirt_right.png
+    teaser: assets/images/wrld/in_dirt_right.png
 order: 1
 ---
 

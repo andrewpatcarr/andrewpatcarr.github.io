@@ -39,7 +39,7 @@ var store = [{
         "excerpt":"Inspiration I learned about Disney Imagineering’s BDX droid in August of 2024 and loved the look of their droids movement and was very interested in the RL control. When I started my design, I wasn’t thinking or directly trying to remake what they had, but it obviously subconsciously directing my...","categories": [],
         "tags": [],
         "url": "/projects/wrld/",
-        "teaser": "/assets%5Cimages%5Cwrld%5Cin_dirt_right.png"
+        "teaser": "/assets/images/wrld/in_dirt_right.png"
       },{
         "title": "2-DoF Origami Worm",
         "excerpt":"Overview This project started as a Cal Poly SURP in 2023. I joined in the beginning of 2024. I worked under Dr. Mohammed Hasan with undergraduate students Micheal Freeman, Conor Schott, Carter Josef, and Col Cook. Most of my work was on getting the robot to move well. The origami...","categories": [],
