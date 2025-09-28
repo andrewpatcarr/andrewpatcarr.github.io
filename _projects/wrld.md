@@ -38,7 +38,7 @@ As of 09/27/2025, I have completed most of the mechanical design and am now focu
 {% include figure image_path="assets/images/wrld/translate_focused.png" alt="translate_focused"
 %}
 
-- One eye is a LED button and the other is a RasPi Cam 2
+- Head featuring an LED button eye and a RasPi Cam 2 eye along with a snap-in "hat" for different functions. Carrying hat shown. 
 
 {% include figure image_path="assets/images/wrld/wrld_face_blink.gif" alt="face_blink"
 %}
@@ -47,6 +47,8 @@ As of 09/27/2025, I have completed most of the mechanical design and am now focu
 
 {% include figure image_path="assets/images/wrld/leg_close_up.png" alt="leg_close_up"
 %}
+
+- Engraved name
 
 {% include figure image_path="assets/images/wrld/back_of_head.jpg" alt="back_of_head"
 %}
