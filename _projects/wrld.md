@@ -10,7 +10,7 @@ order: 1
 ---
 
 
-{% include figure image_path="assets\images\wrld\in_dirt_right.png" alt="in_dirt_right"
+{% include figure image_path="assets/images/wrld/in_dirt_right.png" alt="in_dirt_right"
 %}
 
 # Inspiration
@@ -30,23 +30,23 @@ As of 09/27/2025, I have completed most of the mechanical design and am now focu
 
 ## Mechanical Design
 
-{% include figure image_path="assets\images\wrld\in_room_sideways_look_2.png" alt="in_room_sideways_look_2"
+{% include figure image_path="assets/images/wrld/in_room_sideways_look_2.png" alt="in_room_sideways_look_2"
 %}
 
 - 9 DC Servos (Feetech STS-3215-C044) --> 2 for hip, one for knee per leg; 2 for neck; 1 for torso translation
 
-{% include figure image_path="assets\images\wrld\translate_focused.png" alt="translate_focused"
+{% include figure image_path="assets/images/wrld/translate_focused.png" alt="translate_focused"
 %}
 
 - One eye is a LED button and the other is a RasPi Cam 2
 
-{% include figure image_path="assets\images\wrld\wrld_face_blink.gif" alt="face_blink"
+{% include figure image_path="assets/images/wrld/wrld_face_blink.gif" alt="face_blink"
 %}
 
 - Carbon Rods for legs which increase stiffness while decreasing weight
 
-{% include figure image_path="assets\images\wrld\leg_close_up.png" alt="leg_close_up"
+{% include figure image_path="assets/images/wrld/leg_close_up.png" alt="leg_close_up"
 %}
 
-{% include figure image_path="assets\images\wrld\back_of_head.jpg" alt="back_of_head"
+{% include figure image_path="assets/images/wrld/back_of_head.jpg" alt="back_of_head"
 %}
