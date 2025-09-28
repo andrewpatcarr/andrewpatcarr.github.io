@@ -5,6 +5,12 @@ var store = [{
         "url": "/projects/rl_practice/",
         "teaser": "/assets/images/rl_practice/mountain_cart_good.gif"
       },{
+        "title": "D.O.M.",
+        "excerpt":"Project As part of the interdiscplinary senior project, my team designed a weight lifting prosthetic for a Cal Poly wrestler named Dom Mendez. He was involved in an accident that resulted in a transhumeral amputation. He wanted a prosthetic to help workout in the gym and fill in some of...","categories": [],
+        "tags": [],
+        "url": "/projects/dom/",
+        "teaser": "/assets/images/dom/side_profile.jpeg"
+      },{
         "title": "Line-following, Orientation Sensing Romi Robot",
         "excerpt":"Our final build of the Romi robot Documentation As part of our project, we created a website for documentation of every aspect of the project. ME-405 Project Documentation Here’s a quick overview The Project - Romi Throughout the quarter in ME-405, we worked on labs that built, wired, and programmed...","categories": [],
         "tags": [],
@@ -28,6 +34,12 @@ var store = [{
         "tags": [],
         "url": "/projects/zap_em_blast_em/",
         "teaser": "/assets/images/zap_em_blast_em/zap_top_view.gif"
+      },{
+        "title": "WRLD",
+        "excerpt":"Inspiration I learned about Disney Imagineering’s BDX droid in August of 2024 and loved the look of their droids movement and was very interested in the RL control. When I started my design, I wasn’t thinking or directly trying to remake what they had, but it obviously subconsciously directing my...","categories": [],
+        "tags": [],
+        "url": "/projects/wrld/",
+        "teaser": "/assets%5Cimages%5Cwrld%5Cin_dirt_right.png"
       },{
         "title": "2-DoF Origami Worm",
         "excerpt":"Overview This project started as a Cal Poly SURP in 2023. I joined in the beginning of 2024. I worked under Dr. Mohammed Hasan with undergraduate students Micheal Freeman, Conor Schott, Carter Josef, and Col Cook. Most of my work was on getting the robot to move well. The origami...","categories": [],

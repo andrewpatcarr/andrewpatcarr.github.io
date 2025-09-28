@@ -50,5 +50,3 @@ As of 09/27/2025, I have completed most of the mechanical design and am now focu
 
 {% include figure image_path="assets\images\wrld\back_of_head.jpg" alt="back_of_head"
 %}
-
-## 
