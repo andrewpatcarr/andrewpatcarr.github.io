@@ -9,7 +9,7 @@ header:
 order: 1
 toc: true
 toc_label: "Table of Contents"
-toc_sticky: true
+toc_sticky: false
 ---
 
 <div class="video-container">
