@@ -1,6 +1,6 @@
 var store = [{
         "title": "Intro to Reinforcement Learning",
-        "excerpt":"tbd  ","categories": [],
+        "excerpt":"Development of DQN using TensorFlow NNs As preparation for my thesis, RL for a reservoir computing, I completed this project to solidify my understanding of deep reinforcement learning. This project was done directly after reading and studying corresponding chapters of “AI: A Modern Approach”. Since DQN is the first algorithm...","categories": [],
         "tags": [],
         "url": "/projects/rl_practice/",
         "teaser": "/assets/images/rl_practice/mountain_cart_good.gif"
@@ -52,4 +52,10 @@ var store = [{
         "tags": [],
         "url": "/research/haptic_joystick/",
         "teaser": "/assets/images/haptic_joystick/top_view.jpeg"
+      },{
+        "title": "RL for MEMS-RC",
+        "excerpt":"(in progress) The Project My master’s thesis at Cal Poly is the implementation of reinforcement learning algorithms on a simulated MEMS-based reservoir computer. On the reinforcement side, my work focuses on implementing RC-specific versions of two algorithms: DeepMind’s DQN, a value-based approach, and OpenAI’s PPO, a policy gradient approach. Due...","categories": [],
+        "tags": [],
+        "url": "/research/mems_rc/",
+        "teaser": "/assets/images/mems_rc/panda_reward_wandb_cropped.png"
       }]

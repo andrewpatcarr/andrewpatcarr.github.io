@@ -6,7 +6,7 @@ date: 2025-6-21
 collection: projects
 header:
     teaser: /assets/images/haptic_joystick/top_view.jpeg
-order: 2
+order: 3
 
 transmission:
   - image_path: assets/images/haptic_joystick/transmission_setup.jpeg

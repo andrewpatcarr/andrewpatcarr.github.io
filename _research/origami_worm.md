@@ -6,7 +6,7 @@ date: 2025-04-25
 collection: projects
 header:
     teaser: /assets/images/origami_worm/origami_worm.gif
-order: 1
+order: 2
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: false

@@ -174,7 +174,37 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>tbd</p>
+        <h3 id="development-of-dqn-using-tensorflow-nns">Development of DQN using TensorFlow NNs</h3>
+
+<p>As preparation for my thesis, RL for a reservoir computing, I completed this project to solidify my understanding of deep reinforcement learning. This project was done directly after reading and studying corresponding chapters of “AI: A Modern Approach”.</p>
+
+<p>Since DQN is the first algorithm I am to implement in my thesis, I focused on a standard implementation of the algorithm using TensorFlow for the neural network. Based on the paper, I implemented experience replay buffers, epsilon-greedy action selection and batch gradient descent. Additionally, I added reward shaping, intermediate model saving, and Weights &amp; Biases integration.</p>
+
+<h3 id="results">Results</h3>
+
+<p>I tested my model on OpenAI Gymnasium’s Cart Pole and Mountain Car. I successfully played each, achieving strong learning performance with my algorithm.</p>
+
+<p><strong>Cart Pole</strong></p>
+<div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/rl_practice/cartpole_500_drift.gif" alt="cart pole gif" /></figure>
+
+</div>
+
+<div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/rl_practice/cartpole_500_drift_plot.png" alt="cart pole png" /></figure>
+
+</div>
+
+<p><strong>Mountain Car</strong></p>
+<div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/rl_practice/mountain_cart_good.gif" alt="mountain car gif" /></figure>
+
+</div>
+
+<div style="width: 700px; margin: auto;">
+<figure class=""><img src="/assets/images/rl_practice/mountain_cart_good.png" alt="mountain car png" /></figure>
+
+</div>
 
         
       </section>
