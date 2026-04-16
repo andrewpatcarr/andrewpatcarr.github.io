@@ -53,7 +53,7 @@ var store = [{
         "url": "/research/haptic_joystick/",
         "teaser": "/assets/images/haptic_joystick/top_view.jpeg"
       },{
-        "title": "RL for MEMS-RC",
+        "title": "RL for MEMS-based Reservoir Computer",
         "excerpt":"(in progress) The Project My master’s thesis at Cal Poly is the implementation of reinforcement learning algorithms on a simulated MEMS-based reservoir computer. On the reinforcement side, my work focuses on implementing RC-specific versions of two algorithms: DeepMind’s DQN, a value-based approach, and OpenAI’s PPO, a policy gradient approach. Due...","categories": [],
         "tags": [],
         "url": "/research/mems_rc/",

@@ -1,38 +1,46 @@
+
+
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
-  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 
 <html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
+    
+<meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>RL for MEMS-RC - Andrew Carr</title>
-<meta name="description" content="Reinforcement Learning for a MEMS-based Reservoir Computer">
+
+<!-- begin _includes/seo.html --><title>RL for MEMS-based Reservoir Computer - Andrew Carr</title>
+<meta name="description" content="Parametric Study and Reinforcement Learning Algorithm design MEMS-based Reservoir Computer">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Andrew Carr">
-<meta property="og:title" content="RL for MEMS-RC">
+<meta property="og:title" content="RL for MEMS-based Reservoir Computer">
 <meta property="og:url" content="http://localhost:4000/research/mems_rc/">
 
 
-  <meta property="og:description" content="Reinforcement Learning for a MEMS-based Reservoir Computer">
+  <meta property="og:description" content="Parametric Study and Reinforcement Learning Algorithm design MEMS-based Reservoir Computer">
 
 
 
   <meta property="og:image" content="http://localhost:4000/assets/images/mems_rc/panda_reward_wandb_cropped.png">
+  
 
 
 
 
 
-  <meta property="article:published_time" content="2025-11-26T00:00:00-08:00">
+
+
+  <meta property="article:published_time" content="2026-04-16T00:00:00-07:00">
 
 
 
@@ -80,7 +88,8 @@
   </head>
 
   <body class="layout--single" dir="ltr">
-    <nav class="skip-links">
+    
+<nav class="skip-links" aria-label="Skip links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -90,10 +99,11 @@
 
     
 
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
         
         <a class="site-title" href="/">
           Andrew Carr
@@ -149,30 +159,34 @@
 
 
 
+
+
 <div id="main" role="main">
   
 
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="RL for MEMS-RC">
-    <meta itemprop="description" content="Reinforcement Learning for a MEMS-based Reservoir Computer">
-    <meta itemprop="datePublished" content="2025-11-26T00:00:00-08:00">
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="RL for MEMS-based Reservoir Computer">
+    <meta itemprop="description" content="Parametric Study and Reinforcement Learning Algorithm design MEMS-based Reservoir Computer">
+    <meta itemprop="datePublished" content="2026-04-16T00:00:00-07:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/research/mems_rc/" itemprop="url">RL for MEMS-RC
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/research/mems_rc/" itemprop="url">RL for MEMS-based Reservoir Computer
 </a>
           </h1>
           
 
 
+
         </header>
       
 
-      <section class="page__content" itemprop="text">
+      <section class="page__content e-content" itemprop="text">
         
         <p>(in progress)</p>
 
@@ -182,7 +196,30 @@
 
 <p>On the reinforcement side, my work focuses on implementing RC-specific versions of two algorithms: DeepMind’s DQN, a value-based approach, and OpenAI’s PPO, a policy gradient approach. Due to the linear readout layer, these algorithms follow the ANN approach closely; however, RC PPO requires less coupling of the actor and critic objective functions, hopefully leading to more efficient training. The successful implementation of each of these algorithms proves the compatibility of RL algorithms with MEMS RC hardware.</p>
 
-<p>On the RC side, I am investigating the effects of RC hyperparameters on a model’s learning performance. Utilizing tools like Ray Tune, I am running investigative grid searches, comparing the effects of each hyperparameter. While this work is currently in progress, I have found significant learning differences between different input signal periods and the randomization of the masking function.</p>
+<p>On the RC side, I am investigating the effects of RC hyperparameters on a model’s learning performance. Utilizing tools like Ray Tune, I am running investigative grid searches, comparing the effects of each hyperparameter. I look at the learning performance of two main parameters, neuron count <strong><em>N</em></strong> and neuron separation 𝜃.</p>
+
+<h2 id="articles">Articles</h2>
+<p>We have recently submitted to the ACM ICONS 2026 conference. Here is the abstract for our paper:</p>
+
+<p>Reservoir computing (RC) offers a promising approach for lowpower, low-latency machine learning by leveraging the intrinsic
+dynamics of physical systems. In this work, we investigate a microelectromechanical system (MEMS)-based delay reservoir computer
+as a function approximator for reinforcement learning (RL). Specifically, a single MEMS oscillator is used to implement a virtual reservoir within a Deep Q-Network (DQN) framework and evaluated on
+two benchmark control tasks: CartPole-v1 and MountainCar-v0. We
+perform a comprehensive parametric study to analyze the impact
+of key reservoir hyperparameters, including the number of virtual
+nodes, node separation, and delayed feedback. The node separation𝜃 , which determines the temporal spacing of virtual neurons relative to the MEMS natural frequency, is shown to critically influence
+system dynamics and learning performance. Results demonstrate
+that for CartPole-v1, optimal and consistent performance occurs for
+relatively small 𝜃 , corresponding to input frequencies higher than
+the MEMS natural frequency. In contrast, MountainCar-v0 benefits
+from moderate 𝜃 , where the reservoir operates closer to its natural
+timescale and exhibits stronger nonlinear dynamics. Furthermore,
+the inclusion of delayed feedback significantly enhances performance in more complex tasks by increasing dynamical richness and
+shifting the optimal operating regime. Across both tasks, increasing reservoir size improves performance and robustness. These
+results highlight the importance of matching reservoir temporal
+dynamics to task requirements and demonstrate that MEMS-based
+reservoirs can serve as compact, energy-efficient computing cores
+for reinforcement learning in edge robotic systems.</p>
 
 <h2 id="some-background">Some Background</h2>
 
@@ -204,17 +241,24 @@
         
         
 
+  
+
+  
+
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-11-26T00:00:00-08:00">November 26, 2025</time></p>
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2026-04-16T00:00:00-07:00">April 16, 2026</time></p>
+
 
       </footer>
 
       
 
       
-  <nav class="pagination">
+
+  <nav class="pagination" aria-label="Post pagination">
     
       <a href="/research/haptic_joystick/" class="pagination--pager" title="4D Haptic Joystick">Previous</a>
     
@@ -245,6 +289,7 @@
 <!-- end custom footer snippets -->
         
 
+
 <div class="page__footer-follow">
   <ul class="social-icons">
     
@@ -252,19 +297,21 @@
     
 
     
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
     
   </ul>
 </div>
 
 
-<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Andrew Carr</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Andrew Carr</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
+
   <script src="/assets/js/main.min.js"></script>
+
 
 
 
