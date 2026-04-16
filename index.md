@@ -11,7 +11,9 @@ header:
       class: "btn btn--primary"
 ---
 
-## A place to show what I'm working on, developing or passionate about.
+
+
+## A place to show what I'm working on, developing, or passionate about.
 
 --> [**Projects**](https://andrewpatcarr.github.io/projects/) <--
 
