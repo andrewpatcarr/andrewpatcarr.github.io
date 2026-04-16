@@ -2,7 +2,7 @@
 layout: single
 title: "WRLD"
 excerpt: "An affordable bipedal droid for testing reinforcement learning-based control and computer vision models"
-date: 2025-09-27
+date: 2026-04-16
 collection: projects
 header:
     teaser: assets/images/wrld/in_dirt_right.png
@@ -51,4 +51,11 @@ As of 09/27/2025, I have completed most of the mechanical design and am now focu
 - Engraved name
 
 {% include figure image_path="assets/images/wrld/back_of_head.jpg" alt="back_of_head"
+%}
+
+## Electrical Desgin
+
+Currently designing the PDB. Designing it to use two LiPo batteries and switch between them easily and safely. More to go but here is what the current board looks like:
+
+{% include figure image_path="assets/images/wrld/pdb_design_4-16.png" alt="pdb"
 %}
