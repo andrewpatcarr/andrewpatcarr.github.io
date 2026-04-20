@@ -54,8 +54,8 @@ var store = [{
         "teaser": "/assets/images/haptic_joystick/top_view.jpeg"
       },{
         "title": "RL for MEMS-based Reservoir Computer",
-        "excerpt":"(in progress) The Project My master’s thesis at Cal Poly is the implementation of reinforcement learning algorithms on a simulated MEMS-based reservoir computer. On the reinforcement side, my work focuses on implementing RC-specific versions of two algorithms: DeepMind’s DQN, a value-based approach, and OpenAI’s PPO, a policy gradient approach. Due...","categories": [],
+        "excerpt":"(in progress) Agent GIFs (the fun stuff) CartPole-v1 - DQN An inverted pendulum balancing game. On the right are the internals of the reservoir which shows the MEMS response to different states of the game. MountainCar-v0 - DQN The agent needs to figure out how to escape the valley with...","categories": [],
         "tags": [],
         "url": "/research/mems_rc/",
-        "teaser": "/assets/images/mems_rc/panda_reward_wandb_cropped.png"
+        "teaser": "/assets/images/mems_rc/conf_mask_reservoir_subplots.png"
       }]

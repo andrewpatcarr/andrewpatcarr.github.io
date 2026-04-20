@@ -5,11 +5,67 @@ excerpt: "Parametric Study and Reinforcement Learning Algorithm design MEMS-base
 date: 2026-4-16
 collection: research
 header:
-    teaser: assets/images/mems_rc/panda_reward_wandb_cropped.png
+    teaser: assets/images/mems_rc/conf_mask_reservoir_subplots.png
 order: 1
 ---
 
 (in progress)
+
+## Agent GIFs (the fun stuff)
+
+***CartPole-v1 - DQN***
+
+An inverted pendulum balancing game.
+
+{% include figure image_path="assets/images/mems_rc/CartPole-v1-DQN-Snipe-20260312-173629_reservoir.gif" alt="cartpole game gif"
+%}
+
+On the right are the internals of the reservoir which shows the MEMS response to different states of the game.
+
+***MountainCar-v0 - DQN***
+
+The agent needs to figure out how to escape the valley with discrete action choices of left, right or none.
+
+{% include figure image_path="assets/images/mems_rc/MountainCar-v0-DQN-Vole-20260325-010536_combined3.gif" alt="mountaincar DQN game gif"
+%}
+
+Reservoir internals are shown as well as the Q-values associated with each action for each state of the game.
+
+Here is how our DQN policy changes throughout training:
+
+{% include figure image_path="assets/images/mems_rc/MountainCar-DQN-3d_gif_Vicuna.gif" alt="mountaincar DQN learning gif"
+%}
+
+***MountainCar-v0 - PPO***
+
+The agent needs to figure out how to escape the valley but with a continuous gas pedal.
+
+{% include figure image_path="assets/images/mems_rc/MountainCarContinuous-v0-PPO-Muskox-20260217-132222median_trial_length.gif" alt="mountaincar PPO game gif"
+%}
+
+PPO policy map for the above agent (what it chooses for each state observation):
+
+{% include figure image_path="assets/images/mems_rc/PPO_mountain_car_cont_Muskox-20260217_3d_action_plot.png" alt="mountaincar PPO policy map"
+%}
+
+***LunarLander-v3 - DQN***
+
+The agent needs to slowly descend the spacecraft to the moon.
+
+{% include figure image_path="assets/images/mems_rc/LunarLander-v3-DQN-Possum-20260327-011135.gif" alt="lunarlander game gif"
+%}
+
+This is not a main focus of the project but the same hyperparameters from Mountain Car and Cart Pole work for it.
+
+***BipedalWalker-v3 - PPO***
+
+The agent needs learn how to walk.
+
+{% include figure image_path="assets/images/mems_rc/BipedalWalker-v3-PPO-Canid-20260225-124234avg_reward.gif" alt="lunarlander game gif"
+%}
+
+This a work in progress. Above is successful learning of a gait. Its not an optimal solution, but does show learning. Our work now looks to find the optimal PPO and reservoir hyperparameters. It will likely need a much larger reservoir than the one used for the previous games.
+
 
 ## The Project
 

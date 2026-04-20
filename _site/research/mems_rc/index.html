@@ -9,7 +9,7 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" dir="ltr">
   <head>
     
 <meta charset="utf-8">
@@ -31,7 +31,7 @@
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/mems_rc/panda_reward_wandb_cropped.png">
+  <meta property="og:image" content="http://localhost:4000/assets/images/mems_rc/conf_mask_reservoir_subplots.png">
   
 
 
@@ -87,7 +87,7 @@
 
   </head>
 
-  <body class="layout--single" dir="ltr">
+  <body class="layout--single">
     
 <nav class="skip-links" aria-label="Skip links">
   <ul>
@@ -189,6 +189,54 @@
       <section class="page__content e-content" itemprop="text">
         
         <p>(in progress)</p>
+
+<h2 id="agent-gifs-the-fun-stuff">Agent GIFs (the fun stuff)</h2>
+
+<p><strong><em>CartPole-v1 - DQN</em></strong></p>
+
+<p>An inverted pendulum balancing game.</p>
+
+<figure class=""><img src="/assets/images/mems_rc/CartPole-v1-DQN-Snipe-20260312-173629_reservoir.gif" alt="cartpole game gif" /></figure>
+
+<p>On the right are the internals of the reservoir which shows the MEMS response to different states of the game.</p>
+
+<p><strong><em>MountainCar-v0 - DQN</em></strong></p>
+
+<p>The agent needs to figure out how to escape the valley with discrete action choices of left, right or none.</p>
+
+<figure class=""><img src="/assets/images/mems_rc/MountainCar-v0-DQN-Vole-20260325-010536_combined3.gif" alt="mountaincar DQN game gif" /></figure>
+
+<p>Reservoir internals are shown as well as the Q-values associated with each action for each state of the game.</p>
+
+<p>Here is how our DQN policy changes throughout training:</p>
+
+<figure class=""><img src="/assets/images/mems_rc/MountainCar-DQN-3d_gif_Vicuna.gif" alt="mountaincar DQN learning gif" /></figure>
+
+<p><strong><em>MountainCar-v0 - PPO</em></strong></p>
+
+<p>The agent needs to figure out how to escape the valley but with a continuous gas pedal.</p>
+
+<figure class=""><img src="/assets/images/mems_rc/MountainCarContinuous-v0-PPO-Muskox-20260217-132222median_trial_length.gif" alt="mountaincar PPO game gif" /></figure>
+
+<p>PPO policy map for the above agent (what it chooses for each state observation):</p>
+
+<figure class=""><img src="/assets/images/mems_rc/PPO_mountain_car_cont_Muskox-20260217_3d_action_plot.png" alt="mountaincar PPO policy map" /></figure>
+
+<p><strong><em>LunarLander-v3 - DQN</em></strong></p>
+
+<p>The agent needs to slowly descend the spacecraft to the moon.</p>
+
+<figure class=""><img src="/assets/images/mems_rc/LunarLander-v3-DQN-Possum-20260327-011135.gif" alt="lunarlander game gif" /></figure>
+
+<p>This is not a main focus of the project but the same hyperparameters from Mountain Car and Cart Pole work for it.</p>
+
+<p><strong><em>BipedalWalker-v3 - PPO</em></strong></p>
+
+<p>The agent needs learn how to walk.</p>
+
+<figure class=""><img src="/assets/images/mems_rc/BipedalWalker-v3-PPO-Canid-20260225-124234avg_reward.gif" alt="lunarlander game gif" /></figure>
+
+<p>This a work in progress. Above is successful learning of a gait. Its not an optimal solution, but does show learning. Our work now looks to find the optimal PPO and reservoir hyperparameters. It will likely need a much larger reservoir than the one used for the previous games.</p>
 
 <h2 id="the-project">The Project</h2>
 
