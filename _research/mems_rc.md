@@ -61,11 +61,10 @@ This is not a main focus of the project but the same hyperparameters from Mounta
 
 The agent needs learn how to walk.
 
-{% include figure image_path="assets/images/mems_rc/BipedalWalker-v3-PPO-Canid-20260225-124234avg_reward.gif" alt="lunarlander game gif"
+{% include figure image_path="assets/images/mems_rc/best_Rattlesnake-20260504-150344.gif" alt="bipedalwalker game gif"
 %}
 
-This a work in progress. Above is successful learning of a gait. Its not an optimal solution, but does show learning. Our work now looks to find the optimal PPO and reservoir hyperparameters. It will likely need a much larger reservoir than the one used for the previous games.
-
+This is the final task of the project, meant to show the limits and potential of learning on the MEMS-RC.
 
 ## The Project
 
