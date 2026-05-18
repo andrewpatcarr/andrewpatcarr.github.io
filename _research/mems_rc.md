@@ -40,7 +40,10 @@ Here is how our DQN policy changes throughout training:
 
 The agent needs to figure out how to escape the valley but with a continuous gas pedal.
 
-{% include figure image_path="assets/images/mems_rc/MountainCarContinuous-v0-PPO-Muskox-20260217-132222median_trial_length.gif" alt="mountaincar PPO game gif"
+{% include figure image_path="assets/images/mems_rc/last_Hyena_20260517-004216.gif" alt="mountaincar PPO game gif"
+%}
+
+{% include figure image_path="assets/images/mems_rc/last_Hyena_20260517-004216_action_1.png" alt="mountaincar PPO action png"
 %}
 
 PPO policy map for the above agent (what it chooses for each state observation):
@@ -59,7 +62,7 @@ This is not a main focus of the project but the same hyperparameters from Mounta
 
 ***BipedalWalker-v3 - PPO***
 
-The agent needs learn how to walk.
+The agent needs learn how to walk, outputting motor torques directly.
 
 {% include figure image_path="assets/images/mems_rc/best_Rattlesnake-20260504-150344.gif" alt="bipedalwalker game gif"
 %}
